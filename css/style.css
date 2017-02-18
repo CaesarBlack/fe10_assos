@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Scada', arial, sans-serif; }
+
+.resize {
+  position: relative;
+  width: 930px;
+  margin: 0 auto; }
+
+.advantages-silver {
+  width: 100%;
+  background: url(../images/bg-silver.jpg) no-repeat center bottom;
+  background-size: cover; }
+  .advantages-silver h2 {
+    padding-top: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #303445;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 71px; }
+  .advantages-silver ul {
+    font-size: 0;
+    line-height: 0;
+    padding-top: 70px;
+    padding-bottom: 20px; }
+    .advantages-silver ul li {
+      display: inline-block;
+      position: relative;
+      text-align: left;
+      width: 50%;
+      font-size: 22px;
+      line-height: 28px;
+      min-height: 120px;
+      padding: 20px 20px 60px 70px;
+      box-sizing: border-box;
+      color: #303445; }
+      .advantages-silver ul li:before {
+        position: absolute;
+        content: "";
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        left: 0;
+        top: 30px;
+        border-radius: 50%;
+        background: #82add5; }
+    .advantages-silver ul .number1:before {
+      content: "01";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number2:before {
+      content: "02";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number3:before {
+      content: "03";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number4:before {
+      content: "04";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number5:before {
+      content: "05";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number6:before {
+      content: "06";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number7:before {
+      content: "07";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+    .advantages-silver ul .number8:before {
+      content: "08";
+      color: white;
+      font-size: 24px;
+      line-height: 40px; }
+
+.consultation {
+  position: relative;
+  width: 100%;
+  background: #3a3f52;
+  background-size: cover;
+  min-height: 815px;
+  z-index: 1; }
+  .consultation:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 2; }
+  .consultation .girl {
+    position: absolute;
+    top: -60px;
+    left: -180px; }
+  .consultation .bijou {
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    z-index: 3; }
+  .consultation .consultation-form {
+    position: relative;
+    margin-top: 70px;
+    font-size: 0;
+    line-height: 0;
+    width: 435px;
+    height: 540px;
+    border: 4px solid #82add5;
+    float: right;
+    text-align: center;
+    background: #82add5; }
+    .consultation .consultation-form form {
+      border: 4px solid #3a3f52;
+      height: 533px; }
+    .consultation .consultation-form h4 {
+      padding-top: 37px;
+      font-size: 36px;
+      line-height: 46px;
+      text-transform: uppercase; }
+    .consultation .consultation-form p {
+      font-size: 19px;
+      line-height: 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding-bottom: 40px; }
+    .consultation .consultation-form span {
+      font-size: 29px;
+      line-height: 38px;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .consultation .consultation-form label {
+      position: relative;
+      display: inline-block; }
+      .consultation .consultation-form label:before {
+        position: absolute;
+        content: "";
+        width: 25px;
+        height: 25px;
+        background: url(../images/icon-form.png) no-repeat 1px 9px;
+        top: 6px;
+        left: 14px; }
+    .consultation .consultation-form .icon-tel:before {
+      background-position: 1px 11px; }
+    .consultation .consultation-form .icon-email:before {
+      background-position: 1px 9px; }
+    .consultation .consultation-form input {
+      height: 50px;
+      width: 337px;
+      margin-bottom: 9px;
+      background: #5e7693;
+      border-radius: 5px;
+      border-style: none;
+      padding-left: 60px;
+      box-sizing: border-box; }
+      .consultation .consultation-form input::-webkit-input-placeholder {
+        color: white;
+        font-size: 15px; }
+      .consultation .consultation-form input ::-moz-placeholder {
+        color: white;
+        font-size: 15px; }
+      .consultation .consultation-form input :-ms-input-placeholder {
+        color: white;
+        font-size: 15px; }
+      .consultation .consultation-form input :-moz-placeholder {
+        color: white;
+        font-size: 15px; }
+
+/*# sourceMappingURL=style.css.map */
