@@ -26,7 +26,7 @@ body {
     font-size: 0;
     line-height: 0;
     padding-top: 70px;
-    padding-bottom: 20px; }
+    padding-bottom: 90px; }
     .advantages-silver ul li {
       display: inline-block;
       position: relative;
@@ -112,7 +112,7 @@ body {
     left: -180px; }
   .consultation .bijou {
     position: absolute;
-    top: 550px;
+    top: 560px;
     left: 400px;
     z-index: 3; }
   .consultation .consultation-form {
@@ -157,9 +157,9 @@ body {
         top: 6px;
         left: 14px; }
     .consultation .consultation-form .icon-tel:before {
-      background-position: 1px 11px; }
+      background-position: -28px 9px; }
     .consultation .consultation-form .icon-email:before {
-      background-position: 1px 9px; }
+      background-position: -52px 9px; }
     .consultation .consultation-form input {
       height: 50px;
       width: 337px;
@@ -181,5 +181,91 @@ body {
       .consultation .consultation-form input :-moz-placeholder {
         color: white;
         font-size: 15px; }
+    .consultation .consultation-form .submit {
+      margin-top: 20px;
+      padding-left: 10px;
+      height: 60px;
+      width: 335px;
+      background: white;
+      border-radius: 5px;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #3a3f52;
+      box-shadow: 0 5px 0 #c8d5b7;
+      cursor: pointer; }
+      .consultation .consultation-form .submit:hover {
+        background: #13073A;
+        color: #ffe; }
+    .consultation .consultation-form .submit-label:before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0; }
+
+.statistic {
+  position: relative;
+  width: 100%;
+  background: url(../images/bg-statistic.jpg);
+  background-size: cover;
+  min-height: 815px;
+  text-align: center; }
+  .statistic h5 {
+    padding: 60px 0 60px 0;
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase; }
+  .statistic ul {
+    font-size: 0;
+    line-height: 0;
+    width: 100%; }
+    .statistic ul li {
+      position: relative;
+      display: inline-block;
+      padding-top: 160px;
+      padding-bottom: 50px;
+      width: 33%;
+      height: 120px;
+      text-align: center;
+      vertical-align: top;
+      text-transform: uppercase; }
+      .statistic ul li:before {
+        position: absolute;
+        content: "";
+        font-size: 70px;
+        line-height: 130px;
+        width: 135px;
+        height: 135px;
+        top: 0;
+        left: 85px;
+        background: url(../images/icon-statistic.png) no-repeat 1px 10px; }
+    .statistic ul .statistic1:before {
+      content: "9";
+      background-position: -32px -10px; }
+    .statistic ul .statistic2:before {
+      content: "35";
+      background-position: -291px -10px; }
+    .statistic ul .statistic3:before {
+      content: "4";
+      background-position: -31px -10px; }
+    .statistic ul .statistic4:before {
+      content: "1";
+      background-position: -31px -290px; }
+    .statistic ul .statistic5:before {
+      content: "650";
+      font-size: 60px;
+      background-position: -294px -290px; }
+    .statistic ul .statistic6:before {
+      content: "15000";
+      font-size: 34px;
+      background-position: -543px -290px; }
+    .statistic ul p {
+      display: inline-block;
+      font-size: 22px;
+      line-height: 28px; }
+    .statistic ul span {
+      font-size: 32px;
+      line-height: 40px; }
 
 /*# sourceMappingURL=style.css.map */
